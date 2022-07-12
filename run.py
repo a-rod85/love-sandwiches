@@ -19,9 +19,9 @@ def get_sales_data():
 
     print("Please enter sales data from the last market.")
     print("Data should be six numbers, separated by commas.")
-    print("Example: 10,20,30,40,50,60\n")
+    print("Example: 10,20,30,40,50,60")
 
-    data_str = input("Enter your data here: ")
-    print(f"The data provided is {data_str}")
+    data_str = input("Enter your data: ")
+     print(f"The data provided is{data_str}")
 
-get_sales_data()    
+     get_sales_data()
